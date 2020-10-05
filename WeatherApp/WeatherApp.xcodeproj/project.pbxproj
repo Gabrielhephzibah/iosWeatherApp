@@ -58,13 +58,37 @@
 			children = (
 				37D09E46252B429C00DCE838 /* AppDelegate.swift */,
 				37D09E48252B429C00DCE838 /* SceneDelegate.swift */,
-				37D09E4A252B429C00DCE838 /* ViewController.swift */,
-				37D09E4C252B429C00DCE838 /* Main.storyboard */,
+				37D09E5C252B4B0900DCE838 /* Model */,
+				37D09E5E252B4B2800DCE838 /* View */,
+				37D09E5D252B4B1D00DCE838 /* Controller */,
 				37D09E4F252B429F00DCE838 /* Assets.xcassets */,
 				37D09E51252B429F00DCE838 /* LaunchScreen.storyboard */,
 				37D09E54252B429F00DCE838 /* Info.plist */,
 			);
 			path = WeatherApp;
+			sourceTree = "<group>";
+		};
+		37D09E5C252B4B0900DCE838 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		37D09E5D252B4B1D00DCE838 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				37D09E4A252B429C00DCE838 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		37D09E5E252B4B2800DCE838 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				37D09E4C252B429C00DCE838 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
